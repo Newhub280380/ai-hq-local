@@ -1,0 +1,21 @@
+# secrets / env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# node
+node_modules/
+
+# os / editor
+.DS_Store
+Thumbs.db
+*.log
